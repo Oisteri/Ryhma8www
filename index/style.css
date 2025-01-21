@@ -19,7 +19,7 @@
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    gap: 25px;
     position: absolute;
     top: 287px;
     left: 500px;
@@ -181,7 +181,7 @@
     left: 428px;
   }
   
-  .HOME .blog {
+  .HOME .activities {
     left: 579px;
     position: absolute;
     top: -8px;
@@ -193,8 +193,8 @@
     line-height: normal;
   }
   
-  .HOME .text-wrapper {
-    left: 1318px;
+  .HOME .faq {
+    left: 1200px;
     position: absolute;
     top: -8px;
     font-family: "Abel-Regular", Helvetica;
@@ -205,10 +205,10 @@
     line-height: normal;
   }
   
-  .HOME .about-us {
+  .HOME .accommodation {
     position: absolute;
     top: -8px;
-    left: 254px;
+    left: 210px;
     font-family: "Abel-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
@@ -217,10 +217,10 @@
     line-height: normal;
   }
   
-  .HOME .text-wrapper-2 {
-    left: 117px;
+  .HOME .home {
     position: absolute;
     top: -8px;
+    left: 60px;
     font-family: "Abel-Regular", Helvetica;
     font-weight: 400;
     color: #ffffff;
@@ -229,7 +229,7 @@
     line-height: normal;
   }
   
-  .HOME .blog-2 {
+  .HOME .gallery {
     left: 785px;
     position: absolute;
     top: -8px;
