@@ -1,6 +1,9 @@
+@import url(https://fonts.google.com/specimen/Abel);
+
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Abel', sans-serif;
     background-color: #0f1a23;
     color: #ffffff;
 }
@@ -37,6 +40,7 @@ header nav a:hover {
 .hero h1 {
     font-size: 48px;
     font-weight: bold;
+    letter-spacing: 10px;
 }
 
 .hero p {
@@ -110,4 +114,11 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.logo h1 {
+    font-size: 40px; 
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    text-transform: uppercase;
 }
