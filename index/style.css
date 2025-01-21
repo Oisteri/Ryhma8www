@@ -450,6 +450,8 @@
   
   .HOME .footer {
     position: relative;
+    font-family: "Abel-Regular", Helvetica;
+    color: #ffffff;
     width: 210px;
     height: 32px;
     background-color: transparent;
