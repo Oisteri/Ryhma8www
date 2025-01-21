@@ -1,123 +1,185 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="global.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="HOME">
-      <div class="div">
-        <div class="content">
-          <div class="group">
-            <p class="a-best-hotel-in-the">A BEST HOTEL IN THE NORDICS</p>
-            <div class="div-2"></div>
-          </div>
-          <p class="discover-the-magic">Discover The Magic Of The Nature With Us</p>
-          <div class="frame"></div>
-          <div class="group-2">
-            <div class="equipment">scroll down</div>
-          </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL X</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f1a23;
+            color: #ffffff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #0f1a23;
+        }
+
+        header nav {
+            display: flex;
+            gap: 30px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            margin: 20px 0;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .section {
+            padding: 50px;
+        }
+
+        .section .content {
+            display: flex;
+            gap: 30px;
+        }
+
+        .section .content div {
+            flex: 1;
+            background-color: #1e2a36;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .section .content div img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .faq {
+            padding: 50px;
+        }
+
+        .faq h2 {
+            margin-bottom: 20px;
+        }
+
+        .faq ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .faq ul li {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0f1a23;
+            font-size: 12px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>HOTEL X</h1>
         </div>
-        <div class="slider">
-          <div class="overlap-group-wrapper">
-            <div class="overlap-group">
-              <div class="slider-BG"></div>
-              <div class="slider-indicator"></div>
-            </div>
-          </div>
-          <div class="text">
-            <div class="frame-2">
-            </div>
-          </div>
-        </div>
-        <div class="overlap">
-          <div class="navbar">
-            <div class="activities">Activities</div>
-            <div class="faq">FAQ</div>
-            <div class="accommodation">Accommodation</div>
-            <div class="home">Home</div>
-            <div class="gallery">Gallery</div>
-          </div>
-          <div class="text-wrapper-3">HOTEL X</div>
-        </div>
-        <div class="content-2">
-          <div class="content-3">
-            <div class="overlap-group-2">
-              <div class="equipment-2">01</div>
-              <div class="content-4">
-                <div class="tagline">
-                  <div class="text-wrapper-4">GET STARTED</div>
-                  <div class="div-2"></div>
-                </div>
-                <div class="text-wrapper-5">Weekend getaway</div>
-                <p class="p">
-                  Escape the ordinary and immerse yourself in a cozy winter retreat. Nestled amidst a serene,
-                  snow-covered forest, our hotel offers the perfect balance of adventure and relaxation. Picture
-                  yourself unwinding in a bubbling hot tub, surrounded by breathtaking snowy landscapes, with crisp
-                  mountain air invigorating your senses.<br />Whether you&#39;re seeking a peaceful weekend getaway or
-                  an active hiking adventure, we&#39;ve got you covered. Plan your hikes with our detailed trail guides
-                  tailored to every skill level—novice to expert backpacker. Then, reward yourself with the warmth of
-                  our luxurious amenities.<br />Discover your winter sanctuary. Ready to make memories? Book your escape
-                  today.
-                </p>
-                <div class="more">
-                  <div class="equipment-3">read more</div>
-                </div>
-              </div>
-            </div>
-            <img class="img-2" src="C:\Users\make\Desktop\HOTEL X\Ryhma-8-web-projekti\Pictures\pic1.jpg" />
-          </div>
-          <div class="content-3">
-            <img class="reposet-make" src="C:\Users\make\Desktop\HOTEL X\Ryhma-8-web-projekti\Pictures\pic3.jpg" />
-            <div class="overlap-2">
-              <div class="equipment-2">02</div>
-              <div class="content-5">
-                <div class="tagline-2">
-                  <div class="northern-light-tours">NORTHERN LIGHT TOURS</div>
-                  <div class="div-2"></div>
-                </div>
-                <p class="text-wrapper-5">Picking the right Hiking Gear!</p>
-                <p class="p">
-                  Step into the magic of the Arctic with our unforgettable Northern Lights Tours. Let the dancing
-                  auroras light up your night as you explore pristine, snow-covered landscapes. No experience compares
-                  to standing under the vibrant green skies, gazing in awe at nature&#39;s most breathtaking light show.
-                </p>
-                <div class="more">
-                  <div class="equipment-3">read more</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="content-3">
-            <div class="overlap-3">
-              <div class="equipment-2">03</div>
-              <div class="content-6">
-                <div class="tagline-3">
-                  <p class="text-wrapper-4">WHERE YOU GO IS THE KEY</p>
-                  <div class="div-2"></div>
-                </div>
-                <p class="text-wrapper-5">Our tours are best in the nordics</p>
-                <p class="p">
-                  Discover the heart of the Nordics with our exclusive tours, crafted to immerse you in the breathtaking
-                  beauty of the Arctic wilderness. Picture yourself at a cozy cabin glowing under the starlit sky,
-                  surrounded by snow-laden trees and the serene silence of nature.<br />Our guided adventures are
-                  designed to show you the best of this magical region, from picturesque landscapes to hidden gems. With
-                  expert tips and detailed hiking guides, you&#39;ll always be prepared to explore confidently and
-                  comfortably, whether you&#39;re trekking through pristine snow or relaxing by a warm fire.<br />Let us
-                  take you on an unforgettable Nordic journey. Adventure is calling—book your tour today.
-                </p>
-                <div class="more">
-                  <div class="equipment-3">read more</div>
-                </div>
-              </div>
-            </div>
-            <img class="img-2" src="C:\Users\make\Desktop\HOTEL X\Ryhma-8-web-projekti\Pictures\pic2.jpg" />
-          </div>
-          <footer class="footer">Copyright 2025 © HOTEL X </p></footer>
-        </div>
-      </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Accommodation</a>
+            <a href="#">Activities</a>
+            <a href="#">Gallery</a>
+            <a href="#">FAQ</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Discover The Magic Of The Nature With Us</h1>
+        <p>Experience the best weekend getaway, picking the right hiking gear, and exclusive tours in the Nordics.</p>
     </div>
-  </body>
+
+    <div class="section">
+        <h2>Our Activities</h2>
+        <div class="content">
+            <div>
+                <img src="https://via.placeholder.com/300" alt="Activity 1">
+                <h3>Weekend Getaway</h3>
+                <p>Relax in the stunning Nordic landscapes with our curated weekend getaways.</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/300" alt="Activity 2">
+                <h3>Picking The Right Hiking Gear</h3>
+                <p>Expert advice on how to prepare for the perfect hike in the Nordics.</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/300" alt="Activity 3">
+                <h3>Best Tours in the Nordics</h3>
+                <p>Explore the breathtaking beauty of the Northern Lights and beyond.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <img src="https://via.placeholder.com/200" alt="Gallery Image 1">
+        <img src="https://via.placeholder.com/200" alt="Gallery Image 2">
+        <img src="https://via.placeholder.com/200" alt="Gallery Image 3">
+        <img src="https://via.placeholder.com/200" alt="Gallery Image 4">
+        <img src="https://via.placeholder.com/200" alt="Gallery Image 5">
+    </div>
+
+    <div class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+            <li><strong>What is included in the tour package?</strong> Our packages include accommodation, meals, guided activities, and transportation.</li>
+            <li><strong>Do I need prior hiking experience?</strong> No, we offer tours suitable for all levels.</li>
+            <li><strong>What should I pack for the trip?</strong> Warm layers, sturdy hiking boots, and waterproof gear are essential.</li>
+            <li><strong>How do I book a tour?</strong> You can book directly through our website or contact customer service.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2025 HOTEL X. All rights reserved.</p>
+    </footer>
+</body>
 </html>
