@@ -5,6 +5,37 @@
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
+    <script defer>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Add click functionality to navbar buttons
+        document.querySelector(".text-wrapper-2").onclick = () => {
+          window.location.href = "index.html"; // Redirect to Home
+        };
+        document.querySelector(".about-us").onclick = () => {
+          window.location.href = "accommodation.html"; // Redirect to Accommodation
+        };
+        document.querySelector(".blog").onclick = () => {
+          alert("Activities section is under construction!"); // Placeholder
+        };
+        document.querySelector(".blog-2").onclick = () => {
+          alert("Gallery section is under construction!"); // Placeholder
+        };
+        document.querySelector(".text-wrapper").onclick = () => {
+          alert("FAQ section is under construction!"); // Placeholder
+        };
+
+        // Scroll down functionality
+        document.querySelector(".equipment").onclick = () => {
+          window.scrollBy({ top: 800, behavior: "smooth" });
+        };
+
+        // Read more buttons functionality
+        document.querySelectorAll(".equipment-3").forEach((btn, idx) => {
+          btn.onclick = () => {
+            alert(`Read more for section ${idx + 1}`);
+          };
+        });
+      });
     </script>
   </head>
   <body>
@@ -18,7 +49,15 @@
           <p class="discover-the-magic">Discover The Magic Of The Nature With Us</p>
           <div class="frame"></div>
           <div class="group-2">
+            <div class="equipment">scroll down</div>
           </div>
+        </div>
+        <div class="slider">
+          <div class="overlap-group-wrapper">
+            <div class="overlap-group">
+              <div class="slider-BG"></div>
+              <div class="slider-indicator"></div>
+            </div>
           </div>
           <div class="text">
             <div class="frame-2">
@@ -27,11 +66,11 @@
         </div>
         <div class="overlap">
           <div class="navbar">
-            <div class="activities">Activities</div>
-            <div class="faq">FAQ</div>
-            <div class="accommodation">Accommodation</div>
-            <div class="home">Home</div>
-            <div class="gallery">Gallery</div>
+            <div class="blog">Activities</div>
+            <div class="text-wrapper">FAQ</div>
+            <div class="about-us">Accommodation</div>
+            <div class="text-wrapper-2">Home</div>
+            <div class="blog-2">Gallery</div>
           </div>
           <div class="text-wrapper-3">HOTEL X</div>
         </div>
@@ -57,14 +96,13 @@
                 </p>
                 <div class="more">
                   <div class="equipment-3">read more</div>
-                  <img class="icon-navigation-2" src="img/arrow-downward-24px-2.svg" />
                 </div>
               </div>
             </div>
-            <img class="img-2" src="Ryhma-8-web-projekti/Pictures/pic1.jpg" />
+            <img class="img-2" src="C:\Users\make\Desktop\HOTEL X\Ryhma-8-web-projekti\Pictures\pic1.jpg" />
           </div>
           <div class="content-3">
-            <img class="reposet-make" src="Ryhma-8-web-projekti/Pictures/pic1.jpg" />
+            <img class="reposet-make" src="C:\Users\make\Desktop\HOTEL X\Ryhma-8-web-projekti\Pictures\pic3.jpg" />
             <div class="overlap-2">
               <div class="equipment-2">02</div>
               <div class="content-5">
@@ -80,7 +118,6 @@
                 </p>
                 <div class="more">
                   <div class="equipment-3">read more</div>
-                  <img class="icon-navigation-2" src="img/arrow-downward-24px.svg" />
                 </div>
               </div>
             </div>
@@ -105,13 +142,12 @@
                 </p>
                 <div class="more">
                   <div class="equipment-3">read more</div>
-                  <img class="icon-navigation-2" src="img/arrow-downward-24px-2.svg" />
                 </div>
               </div>
             </div>
-            <img class="img-2" src="Ryhma-8-web-projekti/Pictures/pic1.jpg" />
+            <img class="img-2" src="C:\Users\make\Desktop\HOTEL X\Ryhma-8-web-projekti\Pictures\pic2.jpg" />
           </div>
-          <footer class="footer"> Copyright 2025 © HOTEL X </footer>
+          <footer class="footer">Copyright 2025 © HOTEL X </p></footer>
         </div>
       </div>
     </div>
