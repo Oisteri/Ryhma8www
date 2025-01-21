@@ -1,0 +1,6 @@
+:root {
+  --bg: rgba(11, 29, 38, 1);
+  --wei: rgba(255, 255, 255, 1);
+  --accent: rgba(251, 215, 132, 1);
+  --shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.2);
+}

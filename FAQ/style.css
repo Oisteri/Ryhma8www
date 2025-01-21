@@ -1,0 +1,178 @@
+.HOME {
+    background-color: #0b1d26;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .HOME .div {
+    background-color: var(--bg);
+    overflow: hidden;
+    width: 1920px;
+    height: 1435px;
+    position: relative;
+    box-shadow: var(--shadow);
+  }
+  
+  .HOME .text-wrapper {
+    top: 3155px;
+    left: 827px;
+    position: absolute;
+    opacity: 0.5;
+    font-family: "Actor-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .HOME .social {
+    position: absolute;
+    width: 24px;
+    height: 173px;
+    top: 359px;
+    left: 80px;
+  }
+  
+  .HOME .overlap-group {
+    position: absolute;
+    width: 2188px;
+    height: 161px;
+    top: 40px;
+    left: 29px;
+  }
+  
+  .HOME .navbar {
+    position: absolute;
+    width: 1760px;
+    height: 64px;
+    top: 28px;
+    left: 428px;
+  }
+  
+  .HOME .blog {
+    left: 579px;
+    position: absolute;
+    top: -8px;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME .blog-2 {
+    left: 1318px;
+    position: absolute;
+    top: -8px;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME .about-us {
+    position: absolute;
+    top: -8px;
+    left: 254px;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME .text-wrapper-2 {
+    left: 117px;
+    position: absolute;
+    top: -8px;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME .blog-3 {
+    left: 785px;
+    position: absolute;
+    top: -8px;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME .text-wrapper-3 {
+    position: absolute;
+    width: 434px;
+    top: 0;
+    left: 0;
+    font-family: "Michroma-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME .revontulikuva-levi {
+    position: absolute;
+    width: 353px;
+    height: 527px;
+    top: 273px;
+    left: 358px;
+    object-fit: cover;
+  }
+  
+  .HOME .p {
+    top: 1390px;
+    left: 857px;
+    position: absolute;
+    opacity: 0.5;
+    font-family: "Actor-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .HOME .aurora-village {
+    position: absolute;
+    width: 353px;
+    height: 527px;
+    top: 273px;
+    left: 783px;
+    object-fit: cover;
+  }
+  
+  .HOME .img {
+    position: absolute;
+    width: 353px;
+    height: 527px;
+    top: 273px;
+    left: 1232px;
+    object-fit: cover;
+  }
+  
+  .HOME .carousel-photos {
+    position: absolute;
+    width: 1227px;
+    height: 527px;
+    top: 841px;
+    left: 358px;
+    object-fit: cover;
+  }
+  
