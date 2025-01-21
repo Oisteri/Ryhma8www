@@ -1,467 +1,113 @@
-.HOME {
-    background-color: #0b1d26;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f1a23;
+    color: #ffffff;
+}
+
+header {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .HOME .div {
-    background-color: var(--bg);
-    overflow: hidden;
-    width: 1920px;
-    height: 4600px;
-    position: relative;
-    box-shadow: var(--shadow);
-  }
-  
-  .HOME .content {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 25px;
-    position: absolute;
-    top: 287px;
-    left: 500px;
-  }
-  
-  .HOME .group {
-    position: relative;
-    width: 474px;
-    height: 23px;
-  }
-  
-  .HOME .a-best-hotel-in-the {
-    position: absolute;
-    top: 0;
-    left: 104px;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--accent);
-    font-size: 18px;
-    letter-spacing: 6.00px;
-    line-height: normal;
-  }
-  
-  .HOME .div-2 {
-    position: absolute;
-    width: 72px;
-    height: 2px;
-    top: 10px;
-    left: 0;
-    background-color: var(--accent);
-  }
-  
-  .HOME .discover-the-magic {
-    position: relative;
-    width: 950px;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--wei);
-    font-size: 88px;
-    letter-spacing: 0;
-    line-height: 100px;
-  }
-  
-  .HOME .frame {
-    position: relative;
-    width: 100px;
-    height: 100px;
-  }
-  
-  .HOME .group-2 {
-    position: relative;
-    width: 128px;
-    height: 24px;
-  }
-  
-  .HOME .equipment {
-    top: 1px;
-    color: #ffffff;
-    font-size: 18px;
-    line-height: normal;
-    position: absolute;
-    left: 0;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    letter-spacing: 0;
-  }
-  
-  .HOME .icon-navigation {
-    position: absolute;
-    width: 16px;
-    height: 24px;
-    top: 0;
-    left: 110px;
-  }
-  
-  .HOME .social {
-    position: absolute;
-    width: 24px;
-    height: 173px;
-    top: 359px;
-    left: 80px;
-  }
-  
-  .HOME .slider {
-    position: absolute;
-    width: 77px;
-    height: 240px;
-    top: 326px;
-    left: 1763px;
-    box-shadow: var(--shadow);
-  }
-  
-  .HOME .overlap-group-wrapper {
-    position: absolute;
-    width: 3px;
-    height: 240px;
-    top: 0;
-    left: 74px;
-  }
-  
-  .HOME .overlap-group {
-    position: relative;
-    height: 240px;
-  }
-  
-  .HOME .slider-BG {
-    position: absolute;
-    width: 3px;
-    height: 240px;
-    top: 0;
-    left: 0;
-    background-color: var(--wei);
-    opacity: 0.5;
-  }
-  
-  .HOME .slider-indicator {
-    position: absolute;
-    width: 3px;
-    height: 60px;
-    top: 0;
-    left: 0;
-    background-color: var(--wei);
-  }
-  
-  .HOME .text {
-    position: absolute;
-    width: 36px;
-    height: 212px;
-    top: 16px;
-    left: 0;
-  }
-  
-  .HOME .frame-2 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 40px;
-    position: relative;
-  }
-  
-  .HOME .img {
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .HOME .overlap {
-    position: absolute;
-    width: 2188px;
-    height: 161px;
-    top: 40px;
-    left: 29px;
-  }
-  
-  .HOME .navbar {
-    position: absolute;
-    width: 1760px;
-    height: 64px;
-    top: 28px;
-    left: 428px;
-  }
-  
-  .HOME .activities {
-    left: 579px;
-    position: absolute;
-    top: -8px;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 48px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .HOME .faq {
-    left: 1200px;
-    position: absolute;
-    top: -8px;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 48px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .HOME .accommodation {
-    position: absolute;
-    top: -8px;
-    left: 210px;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 48px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .HOME .home {
-    position: absolute;
-    top: -8px;
-    left: 60px;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 48px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .HOME .gallery {
-    left: 785px;
-    position: absolute;
-    top: -8px;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 48px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .HOME .text-wrapper-3 {
-    position: absolute;
-    width: 434px;
-    top: 0;
-    left: 0;
-    font-family: "Michroma-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 64px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .HOME .content-2 {
-    display: inline-flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    gap: 200px;
-    position: absolute;
-    top: 1440px;
-    left: 229px;
-  }
-  
-  .HOME .content-3 {
-    position: relative;
-    width: 1462px;
-    height: 720px;
-  }
-  
-  .HOME .overlap-group-2 {
-    position: absolute;
-    width: 782px;
-    height: 572px;
-    top: 37px;
-    left: 0;
-  }
-  
-  .HOME .equipment-2 {
-    top: 0;
-    opacity: 0.1;
-    color: #ffffff;
-    font-size: 240px;
-    line-height: 240px;
-    white-space: nowrap;
-    position: absolute;
-    left: 0;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    letter-spacing: 0;
-  }
-  
-  .HOME .content-4 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 27px;
-    position: absolute;
-    top: 76px;
-    left: 150px;
-  }
-  
-  .HOME .tagline {
-    position: relative;
-    width: 270px;
-    height: 22px;
-  }
-  
-  .HOME .text-wrapper-4 {
-    position: absolute;
-    top: 0;
-    left: 96px;
-    font-family: "Gilroy-ExtraBold", Helvetica;
-    font-weight: 800;
-    color: var(--accent);
-    font-size: 18px;
-    letter-spacing: 6.00px;
-    line-height: normal;
-  }
-  
-  .HOME .text-wrapper-5 {
-    position: relative;
-    width: 555px;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 64px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .HOME .p {
-    position: relative;
-    width: 632px;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: 32px;
-  }
-  
-  .HOME .more {
-    position: relative;
-    width: 129px;
-    height: 23px;
-  }
-  
-  .HOME .equipment-3 {
-    top: 0;
-    color: var(--accent);
-    font-size: 18px;
-    line-height: normal;
-    position: absolute;
-    left: 0;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    letter-spacing: 0;
-  }
-  
-  .HOME .icon-navigation-2 {
-    position: absolute;
-    width: 24px;
-    height: 16px;
-    top: 3px;
-    left: 103px;
-  }
-  
-  .HOME .img-2 {
-    position: absolute;
-    width: 566px;
-    height: 720px;
-    top: 0;
-    left: 896px;
-    object-fit: cover;
-  }
-  
-  .HOME .reposet-make {
-    position: absolute;
-    width: 566px;
-    height: 720px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .HOME .overlap-2 {
-    position: absolute;
-    width: 782px;
-    height: 585px;
-    top: 37px;
-    left: 680px;
-  }
-  
-  .HOME .content-5 {
+    padding: 20px 50px;
+    background-color: #0f1a23;
+}
+
+header nav {
     display: flex;
-    flex-direction: column;
-    width: 632px;
-    height: 466px;
-    align-items: flex-start;
-    gap: 27px;
-    position: absolute;
-    top: 119px;
-    left: 150px;
-  }
-  
-  .HOME .tagline-2 {
-    position: relative;
-    width: 381px;
-    height: 23px;
-  }
-  
-  .HOME .northern-light-tours {
-    position: absolute;
-    top: 0;
-    left: 96px;
-    font-family: "Abel-Regular", Helvetica;
-    font-weight: 400;
-    color: var(--accent);
-    font-size: 18px;
-    letter-spacing: 6.00px;
-    line-height: normal;
-  }
-  
-  .HOME .overlap-3 {
-    position: absolute;
-    width: 782px;
-    height: 612px;
-    top: 37px;
-    left: 0;
-  }
-  
-  .HOME .content-6 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 27px;
-    position: absolute;
-    top: 34px;
-    left: 150px;
-  }
-  
-  .HOME .tagline-3 {
-    position: relative;
-    width: 456px;
-    height: 22px;
-  }
-  
-  .HOME .footer {
-    position: relative;
-    font-family: "Abel-Regular", Helvetica;
+    gap: 30px;
+}
+
+header nav a {
+    text-decoration: none;
     color: #ffffff;
-    width: 210px;
-    height: 32px;
-    background-color: transparent;
-  }
-  
-  .HOME .copyright-HOTEL {
-    position: absolute;
-    width: 207px;
-    height: 18px;
-    top: 8px;
-    left: 1px;
-  }
-  
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.section {
+    padding: 50px;
+}
+
+.section .content {
+    display: flex;
+    gap: 30px;
+}
+
+.section .content div {
+    flex: 1;
+    background-color: #1e2a36;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section .content div img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 50px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.faq {
+    padding: 50px;
+}
+
+.faq h2 {
+    margin-bottom: 20px;
+}
+
+.faq ul {
+    list-style: none;
+    padding: 0;
+}
+
+.faq ul li {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f1a23;
+    font-size: 12px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
