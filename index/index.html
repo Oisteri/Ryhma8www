@@ -5,37 +5,6 @@
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
-    <script defer>
-      document.addEventListener("DOMContentLoaded", function () {
-        // Add click functionality to navbar buttons
-        document.querySelector(".text-wrapper-2").onclick = () => {
-          window.location.href = "index.html"; // Redirect to Home
-        };
-        document.querySelector(".about-us").onclick = () => {
-          window.location.href = "accommodation.html"; // Redirect to Accommodation
-        };
-        document.querySelector(".blog").onclick = () => {
-          alert("Activities section is under construction!"); // Placeholder
-        };
-        document.querySelector(".blog-2").onclick = () => {
-          alert("Gallery section is under construction!"); // Placeholder
-        };
-        document.querySelector(".text-wrapper").onclick = () => {
-          alert("FAQ section is under construction!"); // Placeholder
-        };
-
-        // Scroll down functionality
-        document.querySelector(".equipment").onclick = () => {
-          window.scrollBy({ top: 800, behavior: "smooth" });
-        };
-
-        // Read more buttons functionality
-        document.querySelectorAll(".equipment-3").forEach((btn, idx) => {
-          btn.onclick = () => {
-            alert(`Read more for section ${idx + 1}`);
-          };
-        });
-      });
     </script>
   </head>
   <body>
@@ -49,7 +18,6 @@
           <p class="discover-the-magic">Discover The Magic Of The Nature With Us</p>
           <div class="frame"></div>
           <div class="group-2">
-            <div class="equipment">scroll down</div>
           </div>
         </div>
         <div class="slider">
