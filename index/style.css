@@ -20,10 +20,24 @@ header {
 header nav {
     display: flex;
     gap: 30px;
-    top: 15px;
-    text-align: center;
+    position: relative;
 }
 
+.nav-menu {
+    display: flex;
+    gap: 30px;
+}
+.nav-menu.open {
+    display: block;
+    flex-direction: column;
+    background-color: #0f1a23;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 100;
+}
 .nav-link:hover {
     color: #007bff;
     text-decoration: none;
@@ -39,6 +53,7 @@ header nav a {
     font-size: 14px;
     text-transform: uppercase;
     top: 15px;
+    padding: 10px;
 }
 header nav a:hover {
     text-decoration: underline;
@@ -147,6 +162,16 @@ footer a:hover {
     margin: 0;
 }
 
+.hamburger {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: auto;
+}
+
 @media (max-width: 768px) {
     .gallery {
         grid-template-columns: 1fr;
@@ -155,4 +180,28 @@ footer a:hover {
     .gallery img {
         height: auto;
     }
+
+    header nav {
+        flex-direction: column;
+        display: none;
+    }
+    header nav.open {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-menu.open {
+        display: flex;
+    }
+    .nav-menu a {
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
 }
+
