@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css2?family=Abel&display=swap);
+
+body {
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+    background-color: #0f1a23;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0f1a23;
+    top: 15px;
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+}
+.nav-menu.open {
+    display: block;
+    flex-direction: column;
+    background-color: #0f1a23;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 100;
+}
+.nav-link:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+.nav {
+    justify-content: center;
+    top: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    top: 15px;
+    padding: 10px;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.section {
+    padding: 50px;
+}
+.section .content {
+    display: flex;
+    gap: 30px;
+}
+.section .content div {
+    flex: 1;
+    background-color: #1e2a36;
+    padding: 20px;
+    border-radius: 10px;
+}
+.section .content div img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 800px;
+}
+
+.faq {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.faq h2 {
+    margin-bottom: 20px;
+    text-align: none;
+}
+.faq ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.faq ul p {
+
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f1a23;
+    font-size: 12px;
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 10%;
+    transform: translateX(-50%);
+}
+.logo h1 {
+    font-size: 40px; 
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .gallery img {
+        height: auto;
+    }
+
+    .logo {
+        left: 15%;
+    }
+    .logo h1 {
+        font-size: 24px;
+        letter-spacing: 2px;
+        word-spacing: 1px;
+    }
+
+    header nav {
+        flex-direction: column;
+        display: none;
+    }
+    header nav.open {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-menu.open {
+        display: flex;
+    }
+    .nav-menu a {
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
