@@ -5,6 +5,7 @@ body {
     font-family: 'Abel', sans-serif;
     background-color: #0f1a23;
     color: #ffffff;
+    font-size: 18px;
 }
 
 header {
@@ -79,17 +80,21 @@ header nav a:hover {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 50px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .gallery img {
     width: 100%;
     border-radius: 10px;
+    object-fit: cover;
+    height: 800px;
 }
 
 .faq {
-    padding: 50px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-start; 
@@ -108,6 +113,7 @@ header nav a:hover {
     width: 100%;
 }
 .faq ul p {
+
     margin-bottom: 20px;
     line-height: 1.6;
 }
@@ -139,4 +145,14 @@ footer a:hover {
     word-spacing: 5px;
     text-transform: uppercase;
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .gallery img {
+        height: auto;
+    }
 }
