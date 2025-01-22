@@ -9,7 +9,7 @@ body {
 
 header {
     display: flex;
-    justify-content: center; /* Center the entire header content */
+    justify-content: center;
     align-items: center;
     padding: 20px 50px;
     background-color: #0f1a23;
@@ -18,18 +18,17 @@ header {
 
 header nav {
     display: flex;
-    gap: 30px; /* Spacing between nav links */
+    gap: 30px;
     top: 15px;
-    text-align: center; /* Center the text inside links */
+    text-align: center;
 }
 
 .nav-link:hover {
-    color: #007bff; /* Change color on hover */
-    text-decoration: none; /* Remove underline on hover */
+    color: #007bff;
+    text-decoration: none;
 }
-
 .nav {
-    justify-content: center; /* Ensure horizontal centering with Bootstrap */
+    justify-content: center;
     top: 15px;
 }
 
@@ -40,7 +39,6 @@ header nav a {
     text-transform: uppercase;
     top: 15px;
 }
-
 header nav a:hover {
     text-decoration: underline;
 }
@@ -49,13 +47,11 @@ header nav a:hover {
     text-align: center;
     padding: 100px 20px;
 }
-
 .hero h1 {
     font-size: 48px;
     font-weight: bold;
     letter-spacing: 10px;
 }
-
 .hero p {
     margin: 20px 0;
     font-size: 18px;
@@ -65,19 +61,16 @@ header nav a:hover {
 .section {
     padding: 50px;
 }
-
 .section .content {
     display: flex;
     gap: 30px;
 }
-
 .section .content div {
     flex: 1;
     background-color: #1e2a36;
     padding: 20px;
     border-radius: 10px;
 }
-
 .section .content div img {
     width: 100%;
     border-radius: 10px;
@@ -90,7 +83,6 @@ header nav a:hover {
     gap: 20px;
     padding: 50px;
 }
-
 .gallery img {
     width: 100%;
     border-radius: 10px;
@@ -98,20 +90,28 @@ header nav a:hover {
 
 .faq {
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
 }
-
 .faq h2 {
     margin-bottom: 20px;
+    text-align: none;
 }
-
 .faq ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.faq ul p {
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
 
-.faq ul li {
-    margin-bottom: 20px;
-}
 
 footer {
     text-align: center;
@@ -119,23 +119,20 @@ footer {
     background-color: #0f1a23;
     font-size: 12px;
 }
-
 footer a {
     color: #ffffff;
     text-decoration: none;
 }
-
 footer a:hover {
     text-decoration: underline;
 }
 
 .logo {
     position: absolute;
-    top: 15px; /* Adjust the vertical position of the logo */
-    left: 10%; /* Center horizontally */
-    transform: translateX(-50%); /* Align perfectly centered */
+    top: 15px;
+    left: 10%;
+    transform: translateX(-50%);
 }
-
 .logo h1 {
     font-size: 40px; 
     letter-spacing: 10px;
