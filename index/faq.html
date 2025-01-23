@@ -63,6 +63,26 @@
 <!-- FAQ Content Ends Here -->
   </ul>
 </div>
+<div class="contact-form section">
+  <h2>Contact Us</h2>
+  <p>Have questions? Reach out to us using the form below, and we'll get back to you shortly.</p>
+  <form action="submit_form.php" method="POST">
+    <div class="mb-3">
+      <label for="name" class="form-label">Full Name</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email Address</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
 
     <footer>
         <p>Copyright &copy; 2025 HOTEL X. All rights reserved.</p>
