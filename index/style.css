@@ -301,3 +301,135 @@ body {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
 }
 
+/* Booking Calendar Section */
+.booking-calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px; 
+  }
+  
+  .booking-calendar {
+    max-width: 500px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-calendar h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333333; /* Match heading color of the contact form */
+  }
+  
+  .booking-calendar .form-label {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #555555; /* Match label text color */
+  }
+  
+  .booking-calendar .form-control {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc; /* Match input border color */
+    border-radius: 5px;
+  }
+  
+  .booking-calendar .form-control:focus {
+    border-color: #007bff; /* Match input focus border color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Match focus shadow effect */
+    outline: none;
+  }
+  
+  .booking-calendar .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #007bff; /* Match contact form button color */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .booking-calendar .btn:hover {
+    background-color: #0056b3; /* Darker shade for hover state */
+  }
+  
+  .contact-form {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #1e2a36;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d9d9d9;
+}
+
+.contact-form .form-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block; /* Ensure labels are above the inputs */
+    text-align: left; /* Align labels to the left */
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form .mb-3 {
+    width: 100%; /* Full width of the container */
+    max-width: 400px; /* Limit width for alignment consistency */
+    margin-bottom: 15px;
+}
+
+.contact-form .form-control {
+    background-color: #2a3b4c;
+    color: #ffffff;
+    border: 1px solid #455a64;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%; /* Ensure inputs take the full width of the container */
+    box-sizing: border-box;
+}
+
+.contact-form .form-control:focus {
+    background-color: #2a3b4c;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.contact-form .btn {
+    display: block;
+    width: 100%;
+    max-width: 400px; /* Align the button width with the input fields */
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0064c2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form .btn:hover {
+    background-color: #0056b3;
+}
