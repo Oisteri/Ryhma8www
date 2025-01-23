@@ -266,24 +266,24 @@ body {
         padding: 10px;
     }
 }
-/* Reset margin and padding for the body and html */
+
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%; /* Ensure full height for the viewport */
+    height: 100%; 
 }
 
-/* Create a flex container for the body */
+
 body {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    justify-content: space-between; /* Spread content with space between */
-    min-height: 100vh; /* Ensure the body is at least 100% of the viewport height */
+    flex-direction: column; 
+    justify-content: space-between;
+    min-height: 100vh; 
 }
 
-/* Main content area */
+
 .content {
-    flex-grow: 1; /* Make the content area grow to fill space */
+    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -291,74 +291,97 @@ body {
     padding: 20px;
 }
 
-/* Footer styling */
+
 .footer {
-    background-color: #333; /* Background color */
-    color: #fff; /* Text color */
+    background-color: #333; 
+    color: #fff; 
     text-align: center;
-    padding: 10px 0; /* Add padding for spacing */
-    font-size: 14px; /* Font size */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    padding: 10px 0; 
+    font-size: 14px; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
 }
 
-/* Booking Calendar Section */
 .booking-calendar-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 10px; 
+    padding: 10px;
   }
   
   .booking-calendar {
-    max-width: 500px;
+    max-width: 800px; 
     width: 100%;
-    background-color: #ffffff;
-    padding: 20px;
-    border: 1px solid #ddd;
+    background-color: #1e2a36;
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: #ffffff; 
   }
   
   .booking-calendar h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #333333; /* Match heading color of the contact form */
+    text-align: center;
+    color: #ffffff;
   }
   
   .booking-calendar .form-label {
-    font-size: 1.2rem;
-    text-align: left;
-    color: #555555; /* Match label text color */
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block; 
+    text-align: left; 
+    color: #d9d9d9; 
+  }
+  
+  .booking-calendar form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .booking-calendar .mb-3 {
+    width: 100%; 
+    max-width: 400px; 
+    margin-bottom: 15px;
   }
   
   .booking-calendar .form-control {
-    font-size: 1rem;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #cccccc; /* Match input border color */
+    background-color: #2a3b4c; 
+    color: #ffffff; 
+    border: 1px solid #455a64; 
     border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
   }
   
   .booking-calendar .form-control:focus {
-    border-color: #007bff; /* Match input focus border color */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Match focus shadow effect */
+    background-color: #2a3b4c;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
     outline: none;
   }
   
   .booking-calendar .btn {
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    background-color: #007bff; /* Match contact form button color */
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0064c2;
     border: none;
-    color: white;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
   }
   
   .booking-calendar .btn:hover {
-    background-color: #0056b3; /* Darker shade for hover state */
+    background-color: #0056b3;
   }
+  
+
   
   .contact-form {
     max-width: 800px;
@@ -384,8 +407,8 @@ body {
 .contact-form .form-label {
     font-size: 16px;
     margin-bottom: 5px;
-    display: block; /* Ensure labels are above the inputs */
-    text-align: left; /* Align labels to the left */
+    display: block;
+    text-align: left; 
 }
 
 .contact-form form {
@@ -395,8 +418,8 @@ body {
 }
 
 .contact-form .mb-3 {
-    width: 100%; /* Full width of the container */
-    max-width: 400px; /* Limit width for alignment consistency */
+    width: 100%;
+    max-width: 400px;
     margin-bottom: 15px;
 }
 
@@ -406,7 +429,7 @@ body {
     border: 1px solid #455a64;
     border-radius: 5px;
     padding: 10px;
-    width: 100%; /* Ensure inputs take the full width of the container */
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -419,7 +442,7 @@ body {
 .contact-form .btn {
     display: block;
     width: 100%;
-    max-width: 400px; /* Align the button width with the input fields */
+    max-width: 400px;
     padding: 10px;
     font-size: 16px;
     font-weight: bold;
