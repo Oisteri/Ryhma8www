@@ -133,6 +133,29 @@ header nav a:hover {
     line-height: 1.6;
 }
 
+.activities {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.activities h2 {
+    margin-bottom: 20px;
+    text-align: none;
+}
+.activities ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.activities ul p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
 
 footer {
     text-align: center;
@@ -172,6 +195,34 @@ footer a:hover {
     color: #ffffff;
     cursor: pointer;
     margin-left: auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px 0; 
+    font-size: 14px; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 @media (max-width: 768px) {
@@ -215,24 +266,24 @@ footer a:hover {
         padding: 10px;
     }
 }
-
+/* Reset margin and padding for the body and html */
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100%; /* Ensure full height for the viewport */
 }
 
-
+/* Create a flex container for the body */
 body {
     display: flex;
-    flex-direction: column; 
-    justify-content: space-between; 
-    min-height: 100vh; 
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Spread content with space between */
+    min-height: 100vh; /* Ensure the body is at least 100% of the viewport height */
 }
 
 /* Main content area */
 .content {
-    flex-grow: 1; 
+    flex-grow: 1; /* Make the content area grow to fill space */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,147 +293,11 @@ body {
 
 /* Footer styling */
 .footer {
-    background-color: #333;
-    color: #fff; 
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
     text-align: center;
-    padding: 10px 0; 
-    font-size: 14px; 
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
-}
-/* contact form */
-.contact-form {
-    max-width: 800px;
-    margin: 50px auto;
-    background-color: #1e2a36;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    color: #ffffff;
+    padding: 10px 0; /* Add padding for spacing */
+    font-size: 14px; /* Font size */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
 }
 
-.contact-form h2 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.contact-form p {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #d9d9d9;
-}
-
-.contact-form .form-label {
-    font-size: 16px;
-    margin-bottom: 5px;
-    display: block;
-    text-align: left;
-}
-
-.contact-form form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-form .mb-3 {
-    width: 100%;
-    max-width: 400px;
-    margin-bottom: 15px;
-}
-
-.contact-form .form-control {
-    background-color: #2a3b4c;
-    color: #ffffff;
-    border: 1px solid #455a64;
-    border-radius: 5px;
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.contact-form .form-control:focus {
-    background-color: #2a3b4c;
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
-
-.contact-form .btn {
-    display: block;
-    width: 100%;
-    max-width: 400px;
-    padding: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #ffffff;
-    background-color: #0064c2;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.contact-form .btn:hover {
-    background-color: #0056b3;
-}
-
-.booking-calendar h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #333333; 
-  }
-  
-  .booking-calendar .form-label {
-    font-size: 1.2rem;
-    text-align: center;
-    color: #555555; 
-  }
-  
-  .booking-calendar .form-control {
-    font-size: 1rem;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    text-align: center;
-  }
-  
-  .booking-calendar .form-control:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-    outline: none;
-    text-align: center;
-  }
-  
-  .booking-calendar .btn {
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    background-color: #007bff;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    text-align: center;
-  }
-  
-  .booking-calendar .btn:hover {
-    background-color: #0056b3;
-    text-align: center;
-  }
-
-  .booking-calendar-container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 10px;
-    text-align: center;
-  }
-  .booking-calendar {
-    max-width: 500px; 
-    width: 100%;
-    background-color: #ffffff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
