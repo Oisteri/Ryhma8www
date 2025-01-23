@@ -133,27 +133,41 @@ header nav a:hover {
     line-height: 1.6;
 }
 
-.activities {
-    padding: 0px;
+.activities-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    gap: 50px;
+    padding: 50px;
+}
+.activity {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+.activity-image {
+    max-width: 50%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+}
+.activity-text {
+    width: 25%;
     text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -25px;
 }
-.activities h2 {
-    margin-bottom: 20px;
-    text-align: none;
+.activity-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
-.activities ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-.activities ul p {
-    margin-bottom: 20px;
+.activity-text p {
     line-height: 1.6;
 }
 
@@ -264,5 +278,27 @@ body {
         text-align: center;
         width: 100%;
         padding: 10px;
+        
+    }
+    .activity {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .activity-text {
+        width: 100%;
+        margin-top: 10px;
+        order: 2;
+    }
+    .activity-image {
+        width: 100%;
+        max-width: 100%;
+        order: 1;
+    }
+    .activity-right .activity-text {
+        order: 2;
+    }
+    .activity-right .activity-image {
+        order: 1;
     }
 }
