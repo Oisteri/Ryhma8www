@@ -133,7 +133,7 @@ header nav a:hover {
     line-height: 1.6;
 }
 
-.activites {
+.activities {
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -153,11 +153,9 @@ header nav a:hover {
     width: 100%;
 }
 .activities ul p {
-
     margin-bottom: 20px;
     line-height: 1.6;
 }
-
 
 footer {
     text-align: center;
@@ -197,6 +195,34 @@ footer a:hover {
     color: #ffffff;
     cursor: pointer;
     margin-left: auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px 0; 
+    font-size: 14px; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 @media (max-width: 768px) {
@@ -240,38 +266,3 @@ footer a:hover {
         padding: 10px;
     }
 }
-/* Reset margin and padding for the body and html */
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%; /* Ensure full height for the viewport */
-}
-
-/* Create a flex container for the body */
-body {
-    display: flex;
-    flex-direction: column; /* Stack children vertically */
-    justify-content: space-between; /* Spread content with space between */
-    min-height: 100vh; /* Ensure the body is at least 100% of the viewport height */
-}
-
-/* Main content area */
-.content {
-    flex-grow: 1; /* Make the content area grow to fill space */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-}
-
-/* Footer styling */
-.footer {
-    background-color: #333; /* Background color */
-    color: #fff; /* Text color */
-    text-align: center;
-    padding: 10px 0; /* Add padding for spacing */
-    font-size: 14px; /* Font size */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
-}
-
