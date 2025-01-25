@@ -105,6 +105,44 @@ header nav a:hover {
     margin-bottom: 10px;
 }
 
+.home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px;
+}
+.home {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+.home-image {
+    max-width: 50%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+}
+.home-text {
+    width: 25%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -35px;
+}
+.home-text h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.home-text p {
+    line-height: 1.6;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -236,12 +274,14 @@ footer a:hover {
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 340px;
 }
 .booking-calendar {
     max-width: 800px; 
     width: 100%;
     background-color: #1e2a36;
-    padding: 30px;
+    padding: 100px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     color: #ffffff; 
@@ -408,6 +448,7 @@ footer a:hover {
         padding: 10px;
         
     }
+    
     .activity {
         flex-direction: column;
         align-items: center;
@@ -423,10 +464,20 @@ footer a:hover {
         max-width: 100%;
         order: 1;
     }
-    .activity-right .activity-text {
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .home-text {
+        width: 100%;
+        margin-top: 10px;
         order: 2;
     }
-    .activity-right .activity-image {
+    .home-image {
+        width: 100%;
+        max-width: 100%;
         order: 1;
     }
 }
