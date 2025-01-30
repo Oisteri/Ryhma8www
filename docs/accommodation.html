@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOTEL X</title>
   </head>
+
   <body>
     <header>
       <div class="logo">
@@ -74,6 +75,15 @@
         dateFormat: "Y-m-d",
         minDate: "today", // Disable past dates
       });
+      
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", function () {
+            navMenu.classList.toggle("open");
+        });
+    });
     </script>
   </body>
 </html>

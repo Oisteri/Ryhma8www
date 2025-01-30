@@ -32,10 +32,10 @@ header nav {
 
 .nav-menu {
     display: flex;
-    gap: 30px;
 }
+
 .nav-menu.open {
-    display: block;
+    display: flex;
     flex-direction: column;
     background-color: #0f1a23;
     position: absolute;
@@ -425,30 +425,32 @@ footer a:hover {
         word-spacing: 1px;
     }
 
-    header nav {
-        flex-direction: column;
-        display: none;
-    }
-    header nav.open {
-        display: flex;
-    }
-
     .hamburger {
         display: block;
     }
+
     .nav-menu {
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #0f1a23;
+        padding: 10px 0;
+        z-index: 100;
     }
+    
     .nav-menu.open {
         display: flex;
     }
+    
     .nav-menu a {
         text-align: center;
         width: 100%;
         padding: 10px;
-        
     }
-    
+
     .activity {
         flex-direction: column;
         align-items: center;
